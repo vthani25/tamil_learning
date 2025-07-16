@@ -7,15 +7,6 @@ export const Homepage = () => {
       <HomeHeader />
       
       <div>
-        <h3>📌 Why Learn Tamil?</h3>
-        <ul>
-            <li>🗣️ Connect Globally – Over 80 million speakers worldwide.</li>
-            <li>🌍 Explore Culture – Classical dance, cinema, festivals, and timeless literature</li>
-            <li>🧠 Train Your Mind – A unique script and sound system sharpen memory and creativity.</li>
-            <li>❤️ Stay Close to Roots – Perfect for heritage learners wanting to speak with family and community.</li>
-        </ul>
-      </div>
-      <div>
         <h3>📜 A Glimpse Into Tamil History</h3>
         <p>More than 2,000 years old – Ancient inscriptions date to the 3rd century BCE.</p>
         <p>Sangam Age – Flourishing of classical poetry and philosophy.</p>

@@ -6,8 +6,8 @@
         
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: #0a0a0a;
-            color: white;
+            color: #f7f5f2;
+            background: linear-gradient(135deg, #151209 0%, #252016 25%, #332818 50%, #42321a 75%, #523c1c 100%);
             overflow-x: hidden;
         }
         
@@ -18,7 +18,8 @@
             justify-content: center;
             align-items: center;
             position: relative;
-            background: linear-gradient(180deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            background: linear-gradient(180deg, #2e271a 0%, #3e3716 50%, #674f13 100%);
+            border-radius: 32px;
         }
         
         .hero-section::before {
@@ -44,7 +45,7 @@
             font-size: clamp(3rem, 8vw, 6rem);
             font-weight: 800;
             margin-bottom: 1.5rem;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            background: linear-gradient(135deg, #f87b0d 0%, #e89c3a 50%, #f2e057 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -63,7 +64,7 @@
         }
         
         .accent-text {
-            color: #f093fb;
+            color: #f7d04e;
             font-weight: 500;
             position: relative;
         }
@@ -75,7 +76,7 @@
             left: 0;
             right: 0;
             height: 2px;
-            background: linear-gradient(90deg, transparent, #f093fb, transparent);
+            background: linear-gradient(90deg, transparent, #f0f195, transparent);
             animation: underlineGlow 2s ease-in-out infinite;
         }
         
@@ -125,9 +126,9 @@
         }
         
         .scroll-arrow:hover {
-            border-color: #f093fb;
-            background: rgba(240, 147, 251, 0.1);
-            box-shadow: 0 0 20px rgba(240, 147, 251, 0.3);
+            border-color: #eb8219;
+            background: rgba(248, 223, 36, 0.1);
+            box-shadow: 0 0 20px rgba(251, 227, 147, 0.3);
         }
         
         .scroll-arrow img {
@@ -215,7 +216,6 @@
         
         .demo-content {
             height: 100vh;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             display: flex;
             align-items: center;
             justify-content: center;
