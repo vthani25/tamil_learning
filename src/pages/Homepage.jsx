@@ -1,18 +1,12 @@
 import React from 'react';
 import { HomeHeader } from '../components/HomeHeader';
+import { HomeContent2 } from '../components/HomeContent2';
 
 export const Homepage = () => {
   return (
     <div>
       <HomeHeader />
-      
-      <div>
-        <h3>📜 A Glimpse Into Tamil History</h3>
-        <p>More than 2,000 years old – Ancient inscriptions date to the 3rd century BCE.</p>
-        <p>Sangam Age – Flourishing of classical poetry and philosophy.</p>
-        <p>Continuous evolution – From palm-leaf manuscripts to modern social media Tamil.</p>
-        <p>Recognized as a Classical Language of India and part of global cultural heritage.</p>
-      </div>
+      <HomeContent2/>
       <div>
         <h3>🌟 Fun Facts!</h3>
         <p>Tamil is the official language in Tamil Nadu (India), Sri Lanka, and Singapore.</p>

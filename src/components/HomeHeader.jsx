@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/HomeHeader.css'; 
 import downArrow from '../assets/down_arrow.png';
 import {HomeContent} from './HomeContent';
+import { HomeContent2 } from './HomeContent2';
 
 function scrollToContent() {
   const contentSection = document.querySelector('.demo-content');
@@ -31,10 +32,9 @@ export const HomeHeader = () => {
         </div>
     </section>
     
-    <section className="demo-content">
+    <section className="demo-content"   >
         <HomeContent />
     </section>
-    
     </div>
   )
 }
