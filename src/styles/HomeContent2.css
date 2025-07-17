@@ -18,12 +18,18 @@
 
         .tamil-history-section .tamil-letter {
             position: absolute;
-            font-size: 8rem;
+            font-size: 6rem;
             color: rgba(255, 255, 255, 0.2);
             font-weight: 900;
             pointer-events: none;
             user-select: none;
             z-index: 1;
+        }
+
+        @media (max-width: 768px) {
+            .tamil-history-section .tamil-letter {
+                display: none;
+            }
         }
         
         .tamil-history-section .tamil-letter:nth-child(1) {
@@ -72,7 +78,7 @@
 
         .section-header {
             text-align: center;
-            margin-bottom: 80px;
+            margin-bottom: 10px;
             opacity: 0;
             transform: translateY(30px);
             animation: fadeInUp 1s ease-out forwards;

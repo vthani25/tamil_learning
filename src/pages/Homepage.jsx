@@ -1,19 +1,14 @@
 import React from 'react';
 import { HomeHeader } from '../components/HomeHeader';
 import { HomeContent2 } from '../components/HomeContent2';
+import { HomeContent3 } from '../components/HomeContent3';
 
 export const Homepage = () => {
   return (
     <div>
       <HomeHeader />
+      <HomeContent3/>
       <HomeContent2/>
-      <div>
-        <h3>🌟 Fun Facts!</h3>
-        <p>Tamil is the official language in Tamil Nadu (India), Sri Lanka, and Singapore.</p>
-        <p>Tamil movies and music have global fanbases from Toronto to Tokyo.</p>
-        <p>The script has 12 vowels & 18 consonants, creating over 200 compound letters.</p>
-        <p>The Thirukkural, a 2,000-year-old text, has been translated into more than 80 languages.</p>
-      </div>
       <div>
         <h3>✏️ Ready to Start?</h3>
         <p>Interactive & friendly learning:</p>

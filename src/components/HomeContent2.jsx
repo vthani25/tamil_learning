@@ -29,10 +29,6 @@ export const HomeContent2 = () => {
         <div className="section-header">
             <h1 className="section-title">📜 Tamil History</h1>
             <p className="section-subtitle">A Journey Through Time</p>
-            <div className="heritage-badge">
-                <div className="heritage-text">🏺 Ancient Heritage 🏺</div>
-                <div className="heritage-subtext">More than 2,000 years of civilization</div>
-            </div>
         </div>
 
         <div className="timeline-container">
