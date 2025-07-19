@@ -3,14 +3,7 @@
             padding: 0;
             box-sizing: border-box;
         }
-        
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            color: #f7f5f2;
-            background: linear-gradient(135deg, #151209 0%, #252016 25%, #332818 50%, #42321a 75%, #523c1c 100%);
-            overflow-x: hidden;
-        }
-        
+
         .hero-section {
             height: 100vh;
             display: flex;
